@@ -223,8 +223,8 @@ export const SkillsInfo = [
         "A full-stack portfolio website designed to showcase skills, experience, and projects. The platform highlights expertise in modern web technologies like the MERN stack. It provides a structured overview of professional background, including education and work experience. It helps present capabilities effectively and attract potential job opportunities.",
       image: csprepLogo,
       tags: ["React JS","HTML", "CSS", "JavaScript"],
-      // github: "https://github.com/codingmastr/CSPrep",
-      // webapp: "https://csprep.netlify.app/",
+      github: "https://github.com/AayushRaulkar/portfolio",
+      webapp: "https://portfolio-ecru-omega-78.vercel.app/",
     },
     {
       id: 2,
