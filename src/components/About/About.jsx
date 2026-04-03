@@ -65,9 +65,9 @@ const About = () => {
           
         </div>
         {/* Right Side */}
-        <div className="md:w-1/2 flex justify-center md:justify-end md:translate-x-8 lg:translate-x-16">
+        <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center md:justify-end md:translate-x-8 lg:translate-x-16">
           <Tilt
-            className="w-20 h-20 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
+            className="w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-[26rem] lg:h-[26rem] border-4 border-purple-700 rounded-full"
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}
