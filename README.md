@@ -4,6 +4,7 @@ A sleek, responsive, and fully customizable **animated portfolio website** built
 
 ## 🚀 Live Demo
 
+🔗https://portfolio-ecru-omega-78.vercel.app/
 
 
 ## 🛠️ Tech Stack
@@ -24,6 +25,8 @@ A sleek, responsive, and fully customizable **animated portfolio website** built
 ## 🧑‍💻 How to Use
 
 ### 1. Clone the Repo
+git clone [https://github.com/AayushRaulkar/portfolio]
+cd your-repo-name]
 
 
 
