@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+    .clip-path-custom {
+      clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 95%, 0 100%);
+    }
+    .clip-path-custom-2 {
+        clip-path: polygon(0 0, 100% 0, 100% 98%, 25% 95%, 0 100%);
+      }
+    .clip-path-custom-3 {
+        clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 96%, 0 100%);
+      }
+  }
+
+@keyframes aboutFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes aboutSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes aboutSlideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes aboutSlideRight {
+  from {
+    opacity: 0;
+    transform: translateX(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes aboutFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes aboutGlowPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 28px rgba(130, 69, 236, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 4px #9f67ff, 0 0 18px #9f67ff, 0 0 44px rgba(159, 103, 255, 0.95);
+  }
+}
+
+.about-fade-in {
+  animation: aboutFadeIn 0.8s ease-out both;
+}
+
+.about-slide-up {
+  animation: aboutSlideUp 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.about-slide-left {
+  animation: aboutSlideLeft 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.about-slide-right {
+  animation: aboutSlideRight 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.about-delay-1 {
+  animation-delay: 0.12s;
+}
+
+.about-delay-2 {
+  animation-delay: 0.24s;
+}
+
+.about-delay-3 {
+  animation-delay: 0.36s;
+}
+
+.about-delay-4 {
+  animation-delay: 0.48s;
+}
+
+.about-float {
+  animation: aboutFloat 4.8s ease-in-out infinite;
+}
+
+.about-glow {
+  animation: aboutGlowPulse 2.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-fade-in,
+  .about-slide-up,
+  .about-slide-left,
+  .about-slide-right,
+  .about-float,
+  .about-glow {
+    animation: none !important;
+  }
+}
+  
