@@ -232,26 +232,28 @@ export const SkillsInfo = [
       github: "https://github.com/AayushRaulkar/weather-App",
       webapp: "https://weather-app-two-self-45.vercel.app/",
     },
-    // {
-    //   id: 3,
-    //   title: "Email Validator NPM Package",
-    //   description:
-    //     "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    //   image: npmLogo,
-    //   tags: ["React JS", "Node.js", "NPM", "Validation"],
-    //   github: "https://github.com/codingmastr/cmtk-email-validator",
-    //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    // },
-    // {
-    //   id: 4,
-    //   title: "Task Reminder Chrome Extension Tool",
-    //   description:
-    //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    //   image: taskremLogo,
-    //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    // },
+    {
+      id: 3,
+      title: "AI Enhanced Resume Builder",
+      description:
+        "AI Resume Builder is a modern web application that helps users create professional, ATS-friendly resumes with AI-powered content suggestions, real-time editing, live preview, customizable templates, image uploads, and PDF export. The platform simplifies resume creation and enhances job application success.",
+      image: npmLogo,
+      tags: ["React JS", "Node.js", "MongoDB", "OpenAI API","JWT"],
+      github: "https://github.com/AayushRaulkar/AI_ENHANCED_RESUME_BUILDER",
+      webapp: "https://resume-builder-client-teal.vercel.app/",
+    },
+
+    {
+      id: 4,
+      title: "Brain Tease",
+      description:
+        "Brain Tease is a simple Java Swing quiz application. It starts with a login screen, shows quiz rules, runs a timed multiple-choice quiz, and then displays the final score.",
+      image: taskremLogo,
+      tags: ["Java", "OOPs", "Swing", "AWT"],
+      github: "https://github.com/AayushRaulkar/Brain-Tease",
+      webapp: "",
+    },
+
     // {
     //   id: 5,
     //   title: "Webverse Digital",
